@@ -1,7 +1,7 @@
 package HelloWorld;
-public class Main
+class Main
 {
-    public static void main(String[] args)
+     static void main(String[] args)
     {
         System.out.println("Hello world");
     }
