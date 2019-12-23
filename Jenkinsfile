@@ -17,7 +17,7 @@ pipeline{
 	        {
 	        steps{
                         echo "M2_HOME = ${M2_HOME}" 
-			//bat "mvn clean package"
+			bat "mvn clean package"
                           //bat "mvn clean compile"
                     }
 	    }
