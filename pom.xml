@@ -3,13 +3,14 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
-<groupId>org.koushik.javabrains</groupId>
-    <artifactId>MavenTestApp</artifactId>
-    <packaging>jar</packaging>
-    <version>1.0.SNAPSHOT</version>
+	  <groupId>com.coveros.demo</groupId>
+	  <artifactId>helloworld</artifactId>
+	  <version>1.1</version>
+	  <packaging>jar</packaging>
+
 
     
-     <properties>
+       <properties>
            <java.version>1.8</java.version>
       </properties>
 
