@@ -16,7 +16,8 @@ pipeline{
 	        stage("build")
 	        {
 	        steps{
-                         bat "mvn clean package"
+                        echo "M2_HOME = ${M2_HOME}" 
+			//bat "mvn clean package"
         
                     }
 	    }
